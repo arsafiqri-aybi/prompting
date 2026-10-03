@@ -1,0 +1,14 @@
+interface:
+  display_name: Prompting
+  short_description: Ubah chat spontan menjadi hasil yang tepat sasaran
+  default_prompt: Gunakan $prompting untuk memahami maksudku dan selesaikan tugas
+    ini sampai hasilnya siap dipakai.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
